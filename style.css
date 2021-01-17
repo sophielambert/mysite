@@ -1,0 +1,148 @@
+body{
+  font-family: helvetica;
+  font-size: 16px;
+  background-color: #FFFFFF;
+}
+
+h1{
+  font-family: helvetica;
+  font-weight: 100;
+  letter-spacing: 10px;
+  font-size: 30px;
+  text-align: center;
+  color: #dcea9b;
+}
+
+h2{
+  font-family: helvetica;
+  font-weight: 100;
+  font-size: 18px;
+  text-align: center;
+  color: #dcea9b;
+}
+
+h3{
+  font-family: helvetica;
+  font-weight: 100;
+  font-size: 14px;
+  text-align: center;
+  color: #000000;
+}
+
+.experiences{
+  background-color: #FBFBFB;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+
+
+.title{
+  padding-bottom: 5px;
+}
+
+.nav{
+  text-align: center;
+  padding-bottom: 30px;
+  width: 100%;
+}
+
+.nav li{
+  list-style: none;
+  color:  #dcea9b;
+  font-weight: 200;
+  display: inline;
+  padding-right: 15px;
+  padding-left: 15px;
+  letter-spacing: 2px;
+}
+
+a{
+  text-decoration: none;
+}
+
+p{
+  text-align: center;
+  color: #BCBCBC;
+  font-weight: 200;
+}
+
+
+
+
+
+.imageheader img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  border-radius: 50%;
+  background-color: #FBFBFB;
+  height: 40%;
+}
+
+.section1{
+  padding-bottom: 50px;
+}
+
+.section2{
+  background-color: #FBFBFB;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: 0;
+}
+
+.image2 img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+  border-radius: 50%;
+  background-color: #dcea9b;
+}
+
+.image2 a:hover{
+  background-color: black;
+}
+
+.section3{
+  text-align: center;
+  padding-top: 20px;
+}
+
+.container img{
+  display: inline;
+  border: 2px solid;
+  border-color: #FBFBFB;
+  margin: 5px;
+  width: 20%;
+}
+
+
+.container {
+  position: relative;
+  width: 50%;
+  display: inline;
+}
+
+.email a{
+  color: black;
+  border: 1px solid;
+  border-radius: 2px;
+  background-color: #dcea9b;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+/* When the screen is less than 600 pixels wide, */
+@media screen and (max-width: 600px) {
+
+  h1{
+    font-size: 20px;
+  }
+
+  .section3 img{
+    width: 40%;
+}
