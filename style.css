@@ -87,9 +87,14 @@ p{
 
 .section2{
   background-color: #FBFBFB;
-  padding-top: 50px;
+  padding-top: 30px;
   padding-bottom: 50px;
   margin: 0;
+}
+
+.section2 p{
+  width: 100%;
+  text-align: center;
 }
 
 .image2 img{
